@@ -25,7 +25,7 @@ jobs:
           
       # Installs the latest release of oc with the major version 3.
       # This is equivalent to "3.x" or "^3".
-          oc: "3"
+          oc: "4"
 
 # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
